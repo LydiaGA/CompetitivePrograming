@@ -14,19 +14,8 @@ void main(){
     int carry = 0;
     int valueOfZero = 48;
 
-    char longerNumber[1000000];
-    char shorterNumber[1000000];
-
-    if(strlen(number1) > strlen(number1)){
-	longerNumber = number1;
-        shorterNumber = number2;
-    }else{
-	longerNumber = number2;
-        shorterNumber = number1;
-    }
-
     int i = 0;
-    while(i < strlen(longerNumber)){
+    while(i < strlen(number1)){
 
         char num1LastDigit = number1[strlen(number1) - i - 1];        
         char num2LastDigit = number2[strlen(number2) - i - 1];
@@ -53,9 +42,6 @@ void main(){
             
         }
 
-	if(i > strlen(shorterNumber)){
-		summation[i] = longerNumber[strlen(number1) - i - 1];
-        }
         i++;
     }
 
