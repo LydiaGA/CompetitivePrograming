@@ -5,7 +5,7 @@ import java.util.Stack;
 public class Main {
 
     public static void main(String[] args) {
-        String input = "+ 4 / 12 3";
+        String input = "+ 4 / 12 * 3 4";
         String[] inputArray = input.split(" ");
 
         Stack<String> stack = new Stack<>();

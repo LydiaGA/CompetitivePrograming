@@ -2,20 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="63c541bb-84a1-4a25-bd1f-4957336c108c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sample/MatrixCells.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sample/RelativeSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../D8/D8.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../PrefixCalculator/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SortingAlgorithms/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SortingAlgorithms/src/sample/RadixSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sample/Anagram.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../D8/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../D9/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../D9/.idea/description.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../D9/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../D9/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../D9/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../D9/.idea/project-template.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../D9/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../D9/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../D9/D9.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/D6/sample/Anagram.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../D8/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../D8/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../PrefixCalculator/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../PrefixCalculator/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PrefixCalculator/out/production/PrefixCalculator/sample/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../PrefixCalculator/out/production/PrefixCalculator/sample/Main.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../PrefixCalculator/src/sample/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../PrefixCalculator/src/sample/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../SortingAlgorithms/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SortingAlgorithms/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SortingAlgorithms/out/production/SortingAlgorithms/sample/SelectionSort.class" beforeDir="false" afterPath="$PROJECT_DIR$/../SortingAlgorithms/out/production/SortingAlgorithms/sample/SelectionSort.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SortingAlgorithms/src/sample/SelectionSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SortingAlgorithms/src/sample/SelectionSort.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -56,7 +59,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.MatrixCells">
+  <component name="RunManager" selected="Application.Anagram">
     <configuration name="Anagram" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="sample.Anagram" />
       <module name="D6" />
@@ -131,10 +134,10 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Anagram" />
         <item itemvalue="Application.MatrixCells" />
         <item itemvalue="Application.LargestPerimeter" />
         <item itemvalue="Application.RelativeSort" />
-        <item itemvalue="Application.Anagram" />
         <item itemvalue="Application.Intersection" />
       </list>
     </recent_temporary>

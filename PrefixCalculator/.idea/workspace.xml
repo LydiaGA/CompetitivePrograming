@@ -2,18 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c110fa55-1fc0-441c-934a-861425217be3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../D6/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../D6/src/sample/RelativeSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../D8/D8.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SortingAlgorithms/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../D8/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../D6/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../D6/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../D6/out/production/D6/sample/Anagram.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../D8/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../D8/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/sample/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../SortingAlgorithms/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SortingAlgorithms/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SortingAlgorithms/out/production/SortingAlgorithms/sample/SelectionSort.class" beforeDir="false" afterPath="$PROJECT_DIR$/../SortingAlgorithms/out/production/SortingAlgorithms/sample/SelectionSort.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SortingAlgorithms/src/sample/SelectionSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SortingAlgorithms/src/sample/SelectionSort.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />

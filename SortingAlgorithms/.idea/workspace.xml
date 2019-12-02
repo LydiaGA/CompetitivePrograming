@@ -2,20 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="89e44a5b-7ea1-40d9-a7bb-e2301b9411ea" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../D6/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../D6/src/sample/MatrixCells.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../D6/src/sample/RelativeSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../D8/D8.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../PrefixCalculator/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sample/RadixSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../D6/src/sample/Anagram.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../D8/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../D9/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../D9/.idea/description.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../D9/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../D9/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../D9/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../D9/.idea/project-template.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../D9/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../D9/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../D9/D9.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../D6/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../D6/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../D6/out/production/D6/sample/Anagram.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../D8/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../D8/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../PrefixCalculator/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../PrefixCalculator/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PrefixCalculator/out/production/PrefixCalculator/sample/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../PrefixCalculator/out/production/PrefixCalculator/sample/Main.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../PrefixCalculator/src/sample/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../PrefixCalculator/src/sample/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SortingAlgorithms/sample/SelectionSort.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SortingAlgorithms/sample/SelectionSort.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sample/SelectionSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/SelectionSort.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -37,7 +40,7 @@
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../D9" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
