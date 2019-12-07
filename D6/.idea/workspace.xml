@@ -2,22 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="63c541bb-84a1-4a25-bd1f-4957336c108c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/sample/Anagram.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../D8/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../D9/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../D9/.idea/description.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../D9/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../D9/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../D9/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../D9/.idea/project-template.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../D9/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../D9/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../D9/D9.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../D8/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../D8/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PrefixCalculator/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../PrefixCalculator/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PrefixCalculator/out/production/PrefixCalculator/sample/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../PrefixCalculator/out/production/PrefixCalculator/sample/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PrefixCalculator/src/sample/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../PrefixCalculator/src/sample/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../SortingAlgorithms/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SortingAlgorithms/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
