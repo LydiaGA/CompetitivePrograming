@@ -2,7 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="13808587-f6cc-4006-8024-6f3a3156d30b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../../Calculator/src/sample/LargeNumberAddition.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Calculator/src/sample/LargeNumberDivision.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Calculator/src/sample/LargeNumberMultiplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Calculator/src/sample/LargeNumberSubtraction.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../D6/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../D6/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../SortingAlgorithms/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../SortingAlgorithms/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LargeNumberSum/sample/Adder.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LargeNumberSum/sample/Adder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LargeNumberSum/sample/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LargeNumberSum/sample/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sample/Adder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/Adder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sample/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/Main.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -38,7 +48,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.Main">
+    <configuration name="Adder" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="sample.Adder" />
+      <module name="LargeNumberSum" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="sample.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="sample.Main" />
       <module name="LargeNumberSum" />
@@ -52,6 +75,7 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.Main" />
+        <item itemvalue="Application.Adder" />
       </list>
     </recent_temporary>
   </component>

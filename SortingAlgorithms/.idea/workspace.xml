@@ -2,31 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="89e44a5b-7ea1-40d9-a7bb-e2301b9411ea" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CompetitivePrograming.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../D11/src/sample/InsertionSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Contest1/.idea/description.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Contest1/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Contest1/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Contest1/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Contest1/.idea/project-template.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Contest1/.idea/uiDesigner.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Contest1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Contest1/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Contest1/Contest1.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Contest1/out/production/Contest1/BeautifulNumber.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Contest1/out/production/Contest1/BeautifulString.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Contest1/out/production/Contest1/META-INF/Contest1.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Contest1/out/production/Contest1/sample/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Contest1/src/BeautifulNumber.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Contest1/src/BeautifulString.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Contest1/src/sample/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../D11/out/production/D11/sample/MyLinkedList.class" beforeDir="false" afterPath="$PROJECT_DIR$/../D11/out/production/D11/sample/MyLinkedList.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../D11/out/production/D11/sample/ReverseInKGroup.class" beforeDir="false" afterPath="$PROJECT_DIR$/../D11/out/production/D11/sample/ReverseInKGroup.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../D6.zip" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Calculator/src/sample/LargeNumberAddition.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Calculator/src/sample/LargeNumberDivision.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Calculator/src/sample/LargeNumberMultiplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Calculator/src/sample/LargeNumberSubtraction.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../D6/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../D6/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SortingAlgorithms.zip" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab2/LargeNumberMultiple/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../lab2/LargeNumberMultiple/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab2/LargeNumberMultiple/out/production/LargeNumberSum/sample/Adder.class" beforeDir="false" afterPath="$PROJECT_DIR$/../lab2/LargeNumberMultiple/out/production/LargeNumberSum/sample/Adder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab2/LargeNumberMultiple/out/production/LargeNumberSum/sample/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../lab2/LargeNumberMultiple/out/production/LargeNumberSum/sample/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab2/LargeNumberMultiple/src/sample/Adder.java" beforeDir="false" afterPath="$PROJECT_DIR$/../lab2/LargeNumberMultiple/src/sample/Adder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab2/LargeNumberMultiple/src/sample/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../lab2/LargeNumberMultiple/src/sample/Main.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
