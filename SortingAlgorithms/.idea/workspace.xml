@@ -2,17 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="89e44a5b-7ea1-40d9-a7bb-e2301b9411ea" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../Calculator/src/sample/LargeNumberAddition.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Calculator/src/sample/LargeNumberDivision.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Calculator/src/sample/LargeNumberMultiplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Calculator/src/sample/LargeNumberSubtraction.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../D6/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../D6/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../D10/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../D10/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../D10/D10.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../D10/src/sample/MinStack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../D11/src/sample/NextGreaterNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../D7/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../D7/src/sample/DistantBarcodes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../D7/src/sample/ReorganizeString.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../D7/src/sample/SortColors.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../D7/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../D7/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab2/LargeNumberMultiple/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../lab2/LargeNumberMultiple/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab2/LargeNumberMultiple/out/production/LargeNumberSum/sample/Adder.class" beforeDir="false" afterPath="$PROJECT_DIR$/../lab2/LargeNumberMultiple/out/production/LargeNumberSum/sample/Adder.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab2/LargeNumberMultiple/out/production/LargeNumberSum/sample/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../lab2/LargeNumberMultiple/out/production/LargeNumberSum/sample/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab2/LargeNumberMultiple/src/sample/Adder.java" beforeDir="false" afterPath="$PROJECT_DIR$/../lab2/LargeNumberMultiple/src/sample/Adder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab2/LargeNumberMultiple/src/sample/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../lab2/LargeNumberMultiple/src/sample/Main.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
