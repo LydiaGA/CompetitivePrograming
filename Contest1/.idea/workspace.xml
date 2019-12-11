@@ -2,29 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dfad7753-c8fb-43db-a0c6-81cbb2df0fc8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CompetitivePrograming.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../D11/src/sample/InsertionSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/description.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/project-template.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Contest1.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Contest1/BeautifulNumber.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Contest1/BeautifulString.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Contest1/META-INF/Contest1.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Contest1/sample/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BeautifulNumber.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BeautifulString.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sample/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../D11/out/production/D11/sample/MyLinkedList.class" beforeDir="false" afterPath="$PROJECT_DIR$/../D11/out/production/D11/sample/MyLinkedList.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../D11/out/production/D11/sample/ReverseInKGroup.class" beforeDir="false" afterPath="$PROJECT_DIR$/../D11/out/production/D11/sample/ReverseInKGroup.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../D6.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SortingAlgorithms.zip" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/../D14/src/sample/MergeTrees.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../D14/src/sample/RangeSum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../D14/src/sample/SameTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../D14/src/sample/SearchBST.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../D14/src/sample/TreeNode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../D7/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../D7/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SortingAlgorithms/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SortingAlgorithms/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -49,6 +34,9 @@
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="SDKs" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -62,7 +50,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.BeautifulString (1)">
+  <component name="RunManager" selected="Application.BeautifulNumber">
     <configuration name="BeautifulNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="BeautifulNumber" />
       <module name="Contest1" />
@@ -108,8 +96,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.BeautifulString (1)" />
         <item itemvalue="Application.BeautifulNumber" />
+        <item itemvalue="Application.BeautifulString (1)" />
         <item itemvalue="Application.BeautifulString" />
       </list>
     </recent_temporary>
@@ -132,7 +120,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>

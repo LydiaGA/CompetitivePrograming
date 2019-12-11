@@ -40,9 +40,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.ReverseParenthesis">
+  <component name="RunManager" selected="Application.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="sample.Main" />
+      <option name="MAIN_CLASS_NAME" value="sample.PrefixCalculator" />
       <module name="D8" />
       <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
       <RunnerSettings RunnerId="Run" />
@@ -51,8 +51,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ReverseParenthesis" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="sample.ReverseParenthesis" />
+    <configuration name="ValidParenthesis" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="sample.ValidParenthesis" />
       <module name="D8" />
       <extension name="coverage">
         <pattern>
@@ -66,11 +66,12 @@
     </configuration>
     <list>
       <item itemvalue="Application.Main" />
-      <item itemvalue="Application.ReverseParenthesis" />
+      <item itemvalue="Application.ValidParenthesis" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ReverseParenthesis" />
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.ValidParenthesis" />
       </list>
     </recent_temporary>
   </component>

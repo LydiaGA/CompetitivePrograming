@@ -1,10 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="81647017-4f3e-4fe6-8f4f-6bb5a38339a3" name="Default Changelist" comment="">
+    <list default="true" id="89e44a5b-7ea1-40d9-a7bb-e2301b9411ea" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../D14/src/sample/MergeTrees.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../D14/src/sample/RangeSum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../D14/src/sample/SameTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../D14/src/sample/SearchBST.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../D14/src/sample/TreeNode.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Contest1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Contest1/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../D7/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../D7/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SortingAlgorithms/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SortingAlgorithms/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -22,11 +27,11 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
-  <component name="ProjectId" id="1UfdsaobR76emLsSldgfHJX9v5Q" />
+  <component name="ProjectId" id="1U6xqgCdSnE94LPFQBHRWiuikKa" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$USER_HOME$/IdeaProjects/AbstractShapeFactoryDemo" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -40,10 +45,10 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.DistantBarcodes">
-    <configuration name="DistantBarcodes" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="sample.DistantBarcodes" />
-      <module name="D7" />
+  <component name="RunManager" selected="Application.RadixSort">
+    <configuration name="CountingSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="sample.CountingSort" />
+      <module name="SortingAlgorithms" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="sample.*" />
@@ -54,19 +59,9 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="sample.KPoints" />
-      <module name="D7" />
-      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ReorganizeString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="sample.ReorganizeString" />
-      <module name="D7" />
+    <configuration name="MergeSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="sample.MergeSort" />
+      <module name="SortingAlgorithms" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="sample.*" />
@@ -77,9 +72,35 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SortColors" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="sample.SortColors" />
-      <module name="D7" />
+    <configuration name="RadixSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="sample.RadixSort" />
+      <module name="SortingAlgorithms" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="sample.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Randomizer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="sample.Randomizer" />
+      <module name="SortingAlgorithms" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="sample.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SelectionSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="sample.SelectionSort" />
+      <module name="SortingAlgorithms" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="sample.*" />
@@ -92,10 +113,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.DistantBarcodes" />
-        <item itemvalue="Application.ReorganizeString" />
-        <item itemvalue="Application.SortColors" />
-        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.RadixSort" />
+        <item itemvalue="Application.SelectionSort" />
+        <item itemvalue="Application.CountingSort" />
+        <item itemvalue="Application.Randomizer" />
+        <item itemvalue="Application.MergeSort" />
       </list>
     </recent_temporary>
   </component>
@@ -104,11 +126,11 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="81647017-4f3e-4fe6-8f4f-6bb5a38339a3" name="Default Changelist" comment="" />
-      <created>1575751790960</created>
+      <changelist id="89e44a5b-7ea1-40d9-a7bb-e2301b9411ea" name="Default Changelist" comment="" />
+      <created>1574691038275</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1575751790960</updated>
+      <updated>1574691038275</updated>
     </task>
     <servers />
   </component>
