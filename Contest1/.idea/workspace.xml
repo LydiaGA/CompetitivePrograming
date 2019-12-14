@@ -2,13 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dfad7753-c8fb-43db-a0c6-81cbb2df0fc8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../Contest2/src/SnowWalkingRobot.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Contest2/src/ThreeFriends.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../D15/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../D15/src/sample/InsertIntoBST.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../D15/src/sample/TreeNode.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../D4, D5/SortingAlgorithms/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../D4, D5/SortingAlgorithms/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../D4, D5/SortingAlgorithms/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../D4, D5/SortingAlgorithms/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../D7/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../D7/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../D8/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../D8/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
