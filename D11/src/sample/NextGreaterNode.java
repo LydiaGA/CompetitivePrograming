@@ -19,8 +19,8 @@ public class NextGreaterNode {
     }
 
     public static int[] nextLargerNodes(ListNode head) {
-        ListNode current1 = head;
-        ListNode current2 = head.next;
+        ListNode currentOuter = head;
+        ListNode currentInner;
         boolean found;
 
         ArrayList<Integer> result = new ArrayList<>();
@@ -28,17 +28,17 @@ public class NextGreaterNode {
         int counter = 0;
         while (true){
             found = false;
-            current2 = current1;
+            currentInner = currentOuter;
             while(true){
-                if(current2.val > current1.val){
-                    result.add(current2.val);
+                if(currentInner.val > currentOuter.val){
+                    result.add(currentInner.val);
                     found = true;
                     break;
                 }
-                if(current2.next == null){
+                if(currentInner.next == null){
                     break;
                 }
-                current2 = current2.next;
+                currentInner = currentInner.next;
             }
             counter++;
 
@@ -46,11 +46,11 @@ public class NextGreaterNode {
                 result.add(0);
             }
 
-            if(current1.next == null){
+            if(currentOuter.next == null){
                 break;
             }
 
-            current1 = current1.next;
+            currentOuter = currentOuter.next;
 
 
         }
