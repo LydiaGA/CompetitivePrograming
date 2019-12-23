@@ -6,7 +6,18 @@ public class MinimumDistance {
     }
 
     public static int minDiffInBST(TreeNode root) {
-        int minDistance = -1;
+        int minDistance;
+        if(root.left != null && root.right != null){
+            minDistance = Math.min(Math.abs(root.val - root.left.val), Math.abs(root.val - root.right.val));
+        }else if(root.left != null){
+            minDistance = Math.abs(root.val - root.left.val);
+        }else{
+            minDistance = Math.abs(root.val - root.right.val);
+        }
+        findMin(root, minDistance);
+    }
+
+    static int findMin(TreeNode root, int minDistance){
         int minDistanceLeft, minDistanceRight;
 
 
@@ -16,14 +27,14 @@ public class MinimumDistance {
 
         if(root.left != null){
             minDistanceLeft = minDiffInBST(root.left);
-            if (minDistance == -1 || minDistanceLeft < minDistance){
+            if (minDistanceLeft < minDistance){
                 return minDistanceLeft;
             }
         }
 
         if(root.right != null){
             minDistanceRight = minDiffInBST(root.right);
-            if (minDistance == -1 || minDistanceRight < minDistance){
+            if (minDistanceRight < minDistance){
                 return minDistanceRight;
             }
         }
