@@ -7,20 +7,12 @@ public class HIndexII {
 
     public static int hIndex(int[] citations) {
         int min = 0, max = citations.length - 1, mid;
-        int zeros = 0;
-        int h_index = citations.length;
+        int h_index = 0, h;
         while(min <= max){
-            if(citations[min] == 0){
-                min++;
-                zeros++;
-                continue;
-            }
             mid = min + (max - min) / 2;
-            int h = citations.length - mid;
+            h = citations.length - mid;
             if(citations[mid] >= h){
-                if (citations[mid] < h_index){
-                    h_index = citations[mid];
-                }
+                h_index = h;
                 max = mid - 1;
             }else{
                 min = mid + 1;
