@@ -1,5 +1,10 @@
 package sample;
 
+import java.util.Collection;
+import java.util.Collections;
+import java.util.HashMap;
+import java.util.Map;
+
 public class BottomLeftTree {
     public static void main(String[] args) {
         TreeNode input = new TreeNode(10);
@@ -21,30 +26,24 @@ public class BottomLeftTree {
         System.out.println(blt.findBottomLeftValue(input));
     }
 
-    int leftDepth = 0, rightDepth = 0;
+    public static int findBottomLeftValue(TreeNode root) {
+        Map<Integer, TreeNode> dictionary = new HashMap<>();
+        addToDictionary(root, dictionary, 0);
 
-    public int findBottomLeftValue(TreeNode root) {
+        int maxKey = Collections.max(dictionary.keySet());
 
-        int leftLeftMost = 0, rightLeftMost = 0;
-        if(root.left == null && root.right == null){
-            return root.val;
-        }else if(root.left == null){
-            rightDepth++;
-            rightLeftMost = findBottomLeftValue(root.right);
-        }else if(root.right == null){
-            leftDepth++;
-            leftLeftMost = findBottomLeftValue(root.left);
-        }else{
-            rightDepth++;
-            rightLeftMost = findBottomLeftValue(root.right);
-            leftDepth++;
-            leftLeftMost = findBottomLeftValue(root.left);
-        }
+        return dictionary.get(maxKey).val;
+    }
 
-        if(rightDepth > leftDepth){
-            return rightLeftMost;
-        }else{
-            return leftLeftMost;
+    static void addToDictionary(TreeNode root, Map<Integer, TreeNode> dictionary, int x){
+        dictionary.put(x, root);
+        if(root.left != null && root.right != null){
+            addToDictionary(root.right, dictionary, x + 1);
+            addToDictionary(root.left, dictionary, x + 1);
+        }else if(root.left != null){
+            addToDictionary(root.left, dictionary, x + 1);
+        }else if(root.right != null){
+            addToDictionary(root.right, dictionary, x + 1);
         }
     }
 }

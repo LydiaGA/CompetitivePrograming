@@ -2,9 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="81647017-4f3e-4fe6-8f4f-6bb5a38339a3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../D6/src/sample/HIndex.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../D19/src/sample/HIndexII.java" beforeDir="false" afterPath="$PROJECT_DIR$/../D19/src/sample/HIndexII.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../D6/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../D6/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Contest4/src/KForOne.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../D14/out/production/D14/sample/BottomLeftTree.class" beforeDir="false" afterPath="$PROJECT_DIR$/../D14/out/production/D14/sample/BottomLeftTree.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../D14/out/production/D14/sample/PreorderTraversal.class" beforeDir="false" afterPath="$PROJECT_DIR$/../D14/out/production/D14/sample/PreorderTraversal.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../D14/src/sample/BottomLeftTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/../D14/src/sample/BottomLeftTree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../D16/src/sample/MinimumDistance.java" beforeDir="false" afterPath="$PROJECT_DIR$/../D16/src/sample/MinimumDistance.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
