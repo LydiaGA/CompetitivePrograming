@@ -1,81 +1,98 @@
 package sample;
 
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
+import java.util.stream.Collectors;
+
 public class KthLargest {
 
-        // To heapify a subtree rooted with node i which is
-        // an index in arr[].Nn is size of heap
-        static void heapify(int arr[], int n, int i)
-        {
-            int largest = i; // Initialize largest as root
-            int l = 2 * i + 1; // left = 2*i + 1
-            int r = 2 * i + 2; // right = 2*i + 2
+    List<Integer> numsList;
+    int k;
+    public KthLargest(int k, int[] nums) {
+        this.numsList = Arrays.stream(nums).boxed().collect(Collectors.toList());
+        this.k = k;
+        heapify(this.numsList);
+    }
 
-            // If left child is larger than root
-            if (l < n && arr[l] > arr[largest])
-                largest = l;
+    public int add(int val) {
 
-            // If right child is larger than largest so far
-            if (r < n && arr[r] > arr[largest])
-                largest = r;
+        insert(this.numsList, val);
+        System.out.println(this.numsList.toString());
+        List<Integer> temp = new ArrayList<>(this.numsList);
+        int result = -1;
+        for (int i = 0; i < k; i++) {
+            result = delete(temp);
+        }
 
-            // If largest is not root
-            if (largest != i) {
-                int swap = arr[i];
-                arr[i] = arr[largest];
-                arr[largest] = swap;
+        return result;
+    }
 
-                // Recursively heapify the affected sub-tree
-                heapify(arr, n, largest);
+    void heapify(List<Integer> input){
+        int fistNonLeaf = (input.size() / 2) - 1;
+
+        for (int i = fistNonLeaf; i >= 0; i--) {
+            heapifyOne(input, i);
+        }
+    }
+
+    void heapifyOne(List<Integer> input, int index){
+        int left = 2 * index + 1;
+        int right = 2 * index + 2;
+
+        int toSwap = index;
+
+        if(left < input.size() && input.get(left) > input.get(index)){
+            toSwap = left;
+        }
+
+        if(right < input.size() && input.get(right) > input.get(left)){
+            toSwap = right;
+        }
+
+        if(toSwap != index){
+            int temp = input.get(index);
+            input.set(index, input.get(toSwap));
+            input.set(toSwap, temp);
+
+            heapifyOne(input, toSwap);
+        }
+    }
+
+     void insert(List<Integer> input, int value){
+        int index = input.size();
+        input.add(value);
+
+        int parent;
+        while(true){
+            parent = (index - 1) / 2;
+            if(parent >= 0 && input.get(index) > input.get(parent)){
+                int temp = input.get(index);
+                input.set(index, input.get(parent));
+                input.set(parent, temp);
+
+                index = parent;
+            }else{
+                break;
             }
         }
+    }
 
-        // Function to build a Max-Heap from the Array
-        static void buildHeap(int arr[], int n)
-        {
-            // Index of last non-leaf node
-            int startIdx = (n / 2) - 1;
+    int delete(List<Integer> input){
+        int result = input.get(0);
+        input.set(0, input.get(input.size() - 1));
+        input.remove(input.size() - 1);
+        heapifyOne(input, 0);
+        return result;
+    }
 
-            // Perform reverse level order traversal
-            // from last non-leaf node and heapify
-            // each node
-            for (int i = startIdx; i >= 0; i--) {
-                heapify(arr, n, i);
-            }
-        }
-
-        // A utility function to print the array
-        // representation of Heap
-        static void printHeap(int arr[], int n)
-        {
-            System.out.println("Array representation of Heap is:");
-
-            for (int i = 0; i < n; ++i)
-                System.out.print(arr[i] + " ");
-
-            System.out.println();
-        }
-
-        // Driver Code
-        public static void main(String args[])
-        {
-            // Binary Tree Representation
-            // of input array
-            // 1
-            //		 /	 \
-            // 3		 5
-            //	 / \	 / \
-            // 4	 6 13 10
-            // / \ / \
-            // 9 8 15 17
-            int arr[] = { 1, 3, 5, 4, 6, 13, 10,
-                    9, 8, 15, 17 };
-
-            int n = arr.length;
-
-            buildHeap(arr, n);
-
-
-            printHeap(arr, n);
-        }
-
+    public static void main(String[] args) {
+        int[] input = new int[]{};
+        KthLargest kthLargest = new KthLargest(3, input);
+        System.out.println(kthLargest.add(3));
+        System.out.println(kthLargest.add(5));
+        System.out.println(kthLargest.add(10));
+        System.out.println(kthLargest.add(9));
+        System.out.println(kthLargest.add(4));
+    }
 }
