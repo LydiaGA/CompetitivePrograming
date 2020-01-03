@@ -14,13 +14,16 @@ class TopVotedCandidate {
 
     int[] persons, times;
     Map<Integer, Integer> timesDictionary;
+    int[][] counts;
 
     public TopVotedCandidate(int[] persons, int[] times) {
         this.persons = persons;
         this.times = times;
 
-       timesDictionary = new HashMap<>();
+        int maxPerson = getMax(persons, persons.length - 1);
+        counts = new int[maxPerson + 1][2];
 
+        timesDictionary = new HashMap<>();
         for (int i = 0; i < times.length; i++) {
             timesDictionary.put(i, getLeading(i));
         }
@@ -29,6 +32,7 @@ class TopVotedCandidate {
     public int q(int t) {
         int index = getTimeIndex(t);
         return timesDictionary.get(index);
+
     }
 
     int getTimeIndex(int time){
@@ -48,41 +52,41 @@ class TopVotedCandidate {
     }
 
     int getLeading(int index){
-        int maxPerson = persons[getMax(persons, index).get(0)];
-        int[] counts = new int[persons.length];
-        for (int i = 0; i <= index; i++) {
-            counts[persons[i]] ++;
-        }
+        counts[index][0] ++;
+        counts[index][1] = index;
 
-        ArrayList<Integer> leading = getMax(counts, counts.length - 1);
-        if(leading.size() == 1){
-            return leading.get(0);
-        }else{
-            for (int i = index; i >= 0; i--) {
-                for (int j = 0; j < leading.size(); j++) {
-                    if(persons[i] == leading.get(j)){
-                        return persons[i];
-                    }
-                }
-            }
-        }
+        int leading = getMaxVotes(counts, counts.length - 1);
 
-        return -1;
+        return leading;
     }
 
-    ArrayList<Integer> getMax(int[] nums, int index){
-        int max = nums[0];
-        ArrayList<Integer> ties = new ArrayList<>();
+    int getMaxVotes(int[][] nums, int index){
+        int[] max = nums[0];
+        int leading = 0;
         for (int i = 0; i <= index; i++) {
-            if(nums[i] == max){
-                ties.add(i);
-            }else if (nums[i] > max){
+            if (nums[i][0] > max[0]){
                 max = nums[i];
-                ties = new ArrayList<>();
-                ties.add(i);
+                leading = i;
+            }else if(nums[i][0] == max[0]){
+                if(nums[i][1] > max[1]){
+                    max = nums[i];
+                    leading = i;
+                }
+            }
+
+        }
+
+        return leading;
+    }
+
+    int getMax(int[] nums, int index){
+        int max = nums[0];
+        for (int i = 0; i <= index; i++) {
+            if(nums[i] > max){
+                max = nums[i];
             }
         }
 
-        return ties;
+        return max;
     }
 }

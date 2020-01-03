@@ -47,7 +47,13 @@ public class MinimumDistance {
             }else{
                 closest = closestDictionary.get(root.right);
             }
-            closestDictionary.put(root, closest);
+            if(closestDictionary.get(root) == null){
+                closestDictionary.put(root, closest);
+            }else{
+                if(closest.val > closestDictionary.get(root).val){
+                    closestDictionary.replace(root, closest);
+                }
+            }
             if(Math.abs(closest.val - root.val) < minDistance){
                 minDistance = Math.abs(closest.val - root.val);
             }
@@ -63,7 +69,14 @@ public class MinimumDistance {
             }else{
                 closest = closestDictionary.get(root.left);
             }
-            closestDictionary.put(root, closest);
+            if(closestDictionary.get(root) == null){
+                closestDictionary.put(root, closest);
+            }else{
+                if(closest.val > closestDictionary.get(root).val){
+                    closestDictionary.replace(root, closest);
+                }
+            }
+
             if(Math.abs(closest.val - root.val) < minDistance){
                 minDistance = Math.abs(closest.val - root.val);
             }
