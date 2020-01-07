@@ -1,31 +1,35 @@
 package sample;
 
 import java.util.Arrays;
+import java.util.HashMap;
+import java.util.Comparator;
+import java.util.LinkedHashMap;
+import java.util.Map;
+
+import static java.util.Map.Entry.*;
+import static java.util.stream.Collectors.*;
 
 public class DistantBarcodes {
     public static void main(String[] args) {
-        System.out.println(Arrays.toString(distantBarcodes(new int[]{2,5,1,5,5})));
+        //System.out.println(Arrays.toString(distantBarcodes(new int[]{2,5,1,5,5})));
     }
 
-    public static int[] distantBarcodes(int[] barcodes){
-        int[] rearranged = new int[barcodes.length];
+    public int[] distantBarcodes(int[] barcodes){
+        Map<Integer, Integer> countDictionary = new HashMap<>();
 
-        for (int i = 0; i < rearranged.length; i++) {
-            if(i == 0){
-                rearranged[i] = barcodes[0];
-                barcodes[0] = 0;
-                continue;
-            }
-            for (int j = 0; j < barcodes.length; j++) {
-                if(rearranged[i-1] != barcodes[j] && barcodes[j] != 0){
-                    rearranged[i] = barcodes[j];
-                    barcodes[j] = 0;
-                    break;
-                }
+        for (int barcode : barcodes) {
+            if (countDictionary.containsKey(barcode)) {
+                countDictionary.replace(barcode, countDictionary.get(barcode) + 1);
+            } else {
+                countDictionary.put(barcode, 1);
             }
         }
 
-        return rearranged;
+
+
+        System.out.println(countDictionary.toString());
+
+        return barcodes;
 
     }
 

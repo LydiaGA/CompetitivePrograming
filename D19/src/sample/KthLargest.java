@@ -23,6 +23,8 @@ public class KthLargest {
         int result = -1;
         for (int i = 0; i < k; i++) {
             result = delete(temp);
+            String y = "hj";
+            y.replaceAll("h", "i");
         }
 
         return result;

@@ -15,7 +15,7 @@ public class MyPow {
 
     public static double getPow(double x, int n) {
         double pow = 1;
-        if(n <= 100){
+        if(n <= 2){
             for (int i = 0; i < n; i++) {
                 pow *= x;
             }
