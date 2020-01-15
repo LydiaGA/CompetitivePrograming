@@ -25,8 +25,6 @@ public class DistantBarcodes {
             }
         }
 
-
-
         System.out.println(countDictionary.toString());
 
         return barcodes;

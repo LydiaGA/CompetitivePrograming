@@ -15,14 +15,16 @@ public class MyPow {
 
     public static double getPow(double x, int n) {
         double pow = 1;
-        if(n <= 2){
-            for (int i = 0; i < n; i++) {
-                pow *= x;
-            }
-            return pow;
+        if(n == 2){
+            return x * x;
+        }else if(n == 1){
+            return x;
+        }else if(n == 0) {
+            return 1;
         }else{
             double tempPow = getPow(x, n / 2);
             return tempPow * tempPow;
         }
     }
+
 }

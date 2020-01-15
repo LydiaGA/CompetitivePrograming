@@ -2,17 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="81647017-4f3e-4fe6-8f4f-6bb5a38339a3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../D20/src/FindDivisible.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../D20/src/Fraction.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../D20/src/sample/NthDigit.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../D20/src/sample/SmallestDivisible.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Contest1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Contest1/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../D19/src/sample/KthLargest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../D19/src/sample/KthLargest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../D20/out/production/D20/sample/MyPow.class" beforeDir="false" afterPath="$PROJECT_DIR$/../D20/out/production/D20/sample/MyPow.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../D20/src/sample/MyPow.java" beforeDir="false" afterPath="$PROJECT_DIR$/../D20/src/sample/MyPow.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../D4, D5/SortingAlgorithms/src/sample/QuickSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/../D4, D5/SortingAlgorithms/src/sample/QuickSort.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/D7/sample/DistantBarcodes.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/D7/sample/DistantBarcodes.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/sample/DistantBarcodes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/DistantBarcodes.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
