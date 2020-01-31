@@ -2,10 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="876d4425-f824-4b8d-92da-563051770683" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../D26/D26.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../D26/src/sample/EgyptianFraction.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../D26/src/sample/FractionAdditionSubtraction.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/sample/FloodFill.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/FloodFill.java" afterDir="false" />
     </list>
@@ -111,7 +107,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
