@@ -1,9 +1,6 @@
 package sample;
 
-import java.util.HashMap;
-import java.util.HashSet;
-import java.util.Map;
-import java.util.Set;
+import java.util.*;
 
 public class FractionToRecurringDecimal {
     public static void main(String[] args) {
@@ -11,52 +8,52 @@ public class FractionToRecurringDecimal {
     }
 
     public static String fractionToDecimal(int numerator, int denominator) {
-        int n = numerator, decimalCounter = 0, firstRepeating = -1;
+        int n = numerator;
         StringBuilder result = new StringBuilder();
         boolean inDecimal = false, isSmaller = false, isRepeating = false;
-        Map<Integer, Integer> remainders = new HashMap<>();
-        remainders.put(numerator, decimalCounter);
-        while(n != 0 && !isRepeating){
+        Set<Integer> remainders = new HashSet<>();
+        remainders.add(numerator);
+        while(n != 0){
             if(n >= denominator){
                 isSmaller = false;
             }else{
                 if(isSmaller){
                     result.append("0");
-                    remainders.put(n, decimalCounter);
-                    decimalCounter++;
+                    remainders.add(n);
                 }
                 if (!inDecimal){
                     if(result.toString().equals("")){
                         result.append("0");
-                        decimalCounter++;
                     }
                     result.append(".");
                     inDecimal = true;
                 }
                 n = n * 10;
                 isSmaller = true;
+                if(isRepeating){
+                    break;
+                }
                 continue;
+            }
+            if(isRepeating){
+                break;
             }
             result.append(n / denominator);
             n = n % denominator;
-            decimalCounter++;
 
-            if(remainders.containsKey(n)){
+            if(remainders.contains(n)){
                 isRepeating = true;
-                firstRepeating = remainders.get(n);
             }
-            System.out.println(remainders.toString());
-            System.out.println(firstRepeating + "*");
-            System.out.println(n + "n");
-            remainders.put(n, decimalCounter);
+            remainders.add(n);
+
         }
 
 
         if(isRepeating){
-            System.out.println(firstRepeating);
-            int point = result.indexOf(".") + 1;
-            int bracketStart = firstRepeating > 1 ? firstRepeating + 1: firstRepeating + point;
-            result.insert(bracketStart, "(");
+            int point = result.indexOf(".");
+            String afterPoint = result.substring(point);
+            int bracketStart = afterPoint.indexOf(n / denominator + "");
+            result.insert(bracketStart + point, "(");
             result.append(")");
         }
 
