@@ -7,35 +7,38 @@ import java.util.stream.Collectors;
 
 public class KthLargest {
 
-    List<Integer> numsList;
+    List<Integer> numsList, heap;
     int k;
     public KthLargest(int k, int[] nums) {
         this.numsList = Arrays.stream(nums).boxed().collect(Collectors.toList());
         this.k = k;
-        heapify(this.numsList);
+        heap = new ArrayList<>();
+        System.out.println(heap.toString());
+        for(int i = 0; i < this.numsList.size(); i++){
+            if(heap.size() == k){
+                if(heap.get(0) < this.numsList.get(i)){
+                    delete(heap);
+                    insert(heap, this.numsList.get(i));
+                }
+            }else{
+                insert(heap, this.numsList.get(i));
+            }
+        }
+
+        System.out.println(heap.toString());
     }
 
     public int add(int val) {
-
-        insert(this.numsList, val);
-        System.out.println(this.numsList.toString());
-        List<Integer> temp = new ArrayList<>(this.numsList);
-        int result = -1;
-        for (int i = 0; i < k; i++) {
-            result = delete(temp);
-            String y = "hj";
-            y.replaceAll("h", "i");
+        if(heap.size() == k){
+            if(heap.get(0) < val){
+                delete(heap);
+                insert(heap, val);
+            }
+        }else{
+            insert(heap, val);
         }
 
-        return result;
-    }
-
-    void heapify(List<Integer> input){
-        int fistNonLeaf = (input.size() / 2) - 1;
-
-        for (int i = fistNonLeaf; i >= 0; i--) {
-            heapifyOne(input, i);
-        }
+        return heap.get(0);
     }
 
     void heapifyOne(List<Integer> input, int index){
@@ -44,11 +47,11 @@ public class KthLargest {
 
         int toSwap = index;
 
-        if(left < input.size() && input.get(left) > input.get(index)){
+        if(left < input.size() && input.get(left) < input.get(index)){
             toSwap = left;
         }
 
-        if(right < input.size() && input.get(right) > input.get(left)){
+        if(right < input.size() && input.get(right) < input.get(left)){
             toSwap = right;
         }
 
@@ -61,23 +64,23 @@ public class KthLargest {
         }
     }
 
-     void insert(List<Integer> input, int value){
+    void insert(List<Integer> input, int value){
         int index = input.size();
         input.add(value);
+         int parent;
+         while(true){
+             parent = (index - 1) / 2;
 
-        int parent;
-        while(true){
-            parent = (index - 1) / 2;
-            if(parent >= 0 && input.get(index) > input.get(parent)){
-                int temp = input.get(index);
-                input.set(index, input.get(parent));
-                input.set(parent, temp);
+             if(parent >= 0 && input.get(index) < input.get(parent)){
+                 int temp = input.get(index);
+                 input.set(index, input.get(parent));
+                 input.set(parent, temp);
 
-                index = parent;
-            }else{
-                break;
-            }
-        }
+                 index = parent;
+             }else{
+                 break;
+             }
+         }
     }
 
     int delete(List<Integer> input){
@@ -89,7 +92,7 @@ public class KthLargest {
     }
 
     public static void main(String[] args) {
-        int[] input = new int[]{};
+        int[] input = new int[]{4, 5, 8, 2};
         KthLargest kthLargest = new KthLargest(3, input);
         System.out.println(kthLargest.add(3));
         System.out.println(kthLargest.add(5));

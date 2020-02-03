@@ -19,7 +19,6 @@ public class MakeParanthesesValid {
             }
             System.out.println(stack.toString());
         }
-
         return stack.size();
     }
 
