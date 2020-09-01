@@ -1,14 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="876d4425-f824-4b8d-92da-563051770683" name="Default Changelist" comment="">
+    <list default="true" id="dfad7753-c8fb-43db-a0c6-81cbb2df0fc8" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../GoogleCodeJam/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GoogleCodeJam/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GoogleCodeJam/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GoogleCodeJam/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../D25/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../D25/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="Contest1" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -20,11 +28,13 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
-  <component name="ProjectId" id="1WcfkWcfTX5vwCceZvsOmClWNsM" />
+  <component name="ProjectId" id="1UZEwzvoQlZm8PquJlQWlmC6how" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../D22" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="SDKs" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -38,10 +48,24 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.FloodFill">
-    <configuration name="FloodFill" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="sample.FloodFill" />
-      <module name="D25" />
+  <component name="RunManager" selected="Application.BeautifulNumber">
+    <configuration name="BeautifulNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="BeautifulNumber" />
+      <module name="Contest1" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BeautifulString (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="BeautifulString" />
+      <module name="Contest1" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BeautifulString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="sample.BeautifulString" />
+      <module name="Contest1" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="sample.*" />
@@ -54,7 +78,7 @@
     </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="sample.Main" />
-      <module name="D25" />
+      <module name="Contest1" />
       <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
       <RunnerSettings RunnerId="Run" />
       <ConfigurationWrapper RunnerId="Run" />
@@ -62,29 +86,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PathSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="sample.PathSum" />
-      <module name="D25" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="sample.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
       <item itemvalue="Application.Main" />
-      <item itemvalue="Application.PathSum" />
-      <item itemvalue="Application.FloodFill" />
+      <item itemvalue="Application.BeautifulString" />
+      <item itemvalue="Application.BeautifulString (1)" />
+      <item itemvalue="Application.BeautifulNumber" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.FloodFill" />
-        <item itemvalue="Application.PathSum" />
-        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.BeautifulNumber" />
+        <item itemvalue="Application.BeautifulString (1)" />
+        <item itemvalue="Application.BeautifulString" />
       </list>
     </recent_temporary>
   </component>
@@ -93,11 +105,11 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="876d4425-f824-4b8d-92da-563051770683" name="Default Changelist" comment="" />
-      <created>1579453946447</created>
+      <changelist id="dfad7753-c8fb-43db-a0c6-81cbb2df0fc8" name="Default Changelist" comment="" />
+      <created>1575555959593</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1579453946447</updated>
+      <updated>1575555959593</updated>
     </task>
     <servers />
   </component>
