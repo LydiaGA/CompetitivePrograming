@@ -1,5 +1,10 @@
 package Week3;
 
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
+
 public class MinimumTime {
     public int minTime(int n, int[][] edges, List<Boolean> hasApple) {
         Map<Integer, List<Integer>> map = new HashMap<>();
